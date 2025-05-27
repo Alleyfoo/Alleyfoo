@@ -1,9 +1,25 @@
-- 👋 Hi, I’m @Alleyfoo
-- 👀 I’m interested in Audio production, sequencing and analyzing
-- 🌱 I’m currently learning Python basics
-- 📫 You can find my music at https://perttu-leinonen.bandcamp.com/
+# Hei, olen Perttu Leinonen 👋  
+Data-analytiikan, tuotedatan ja automaation rakentaja
 
-<!---
-Alleyfoo/Alleyfoo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🔧 Osaamisalueet
+- Excel-automaatio, Python-analytiikka
+- Datan siivous ja ERP-integraatiot
+- PDF-Excel-muuntimet ja raportointi
+- Simuloidut kysyntäennusteet (Prophet)
+- SQL-perusteet ja tiedon visualisointi
+
+## 🧩 Näyteprojekteja
+
+### 📦 Ennustava varastonhallinta
+*Python + Prophet | Simulointi*
+> Malli kysynnän ennustamiseen ja varastorajojen laskemiseen – tukee päätöksentekoa tilauksissa.
+➡️ [Repo (tulossa)]() | [PDF-esite](linkki)
+
+### 📄 PDF–Excel–automaattimuunnin
+*Python + tabula + pandas*
+> Työkalu, joka poimii rakenteellista dataa laskuista tai tuotetiedostoista ja siirtää sen Exceliin.
+
+### 🛒 Webshop Macro Tool
+*Python + pyautogui + selenium*
+> Työkalu, joka täyttää verkkokaupan tuotelomakkeet automaattisesti Excel-tiedoston perusteella.
+
