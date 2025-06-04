@@ -9,6 +9,8 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 - SQL-perusteet ja tiedon visualisointi
 
 ## 🧩 Näyteprojekteja
+*Lidl receipt analysis tool*
+Lidl kuitti laskuri joka muuntaa lidlin apistä saatavan kuitin datan kuukausittaiseksi tiedoksi ja laskee analyysin tuotteiden perusteella sekä vertailun.
 
 ### 📦 Ennustava varastonhallinta
 *Python + Prophet | Simulointi*
