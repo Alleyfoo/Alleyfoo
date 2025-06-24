@@ -12,8 +12,16 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 
 | Projekti | Kuvaus |
 |----------|--------|
-| Lidl receipt analysis tool<br><a href="notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a> | Kuitti-OCR → kuukausikooste, kilo/unit-analyysit. |
-| Warehouse stock estimator (mock-up)<br><a href="notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a> | Pieni varastodatan demo, joka näyttää kuinka ennustaa täydennystarpeet. |
+| Lidl receipt analysis tool | Kuitti-OCR → kuukausikooste, kilo-/unit-analyysit.<br> \
+  <a href="notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a> &nbsp; \
+  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+  </a> |
+| Warehouse stock estimator (mock-up) | Pieni varastodatan demo, joka näyttää kuinka ennustaa täydennystarpeet.<br> \
+  <a href="notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a> &nbsp; \
+  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+  </a> |
 
 
 ### 📄 PDF–Excel–automaattimuunnin
@@ -23,4 +31,7 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 ### 🛒 Webshop Macro Tool
 *Python + pyautogui + selenium*
 > Työkalu, joka täyttää verkkokaupan tuotelomakkeet automaattisesti Excel-tiedoston perusteella.
+
+## 🧩 Näyteprojekteja
+
 
