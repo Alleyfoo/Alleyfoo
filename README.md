@@ -12,8 +12,8 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 
 | Projekti | Kuvaus |
 |----------|--------|
-| Lidl receipt analysis tool<br><a href="notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">
-| Warehouse stock estimator (mock-up)<br><a href="notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">
+| Lidl receipt analysis tool<br><a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">
+| Warehouse stock estimator (mock-up)<br><a href="Toolbox/notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">
 
 ### 📄 PDF–Excel–automaattimuunnin
 *Python + tabula + pandas*
