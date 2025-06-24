@@ -14,7 +14,12 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 |----------|--------|
 | Lidl receipt analysis tool<br><a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">
 | Warehouse stock estimator (mock-up)<br><a href="Toolbox/notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">
-
+| Walkable workplaces (public data)<br>
+  <a href="notebooks/Walkable_workplaces.ipynb">📓 Notebook</a> 
+  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Walkable_workplaces.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+  </a> | Hakee avoimen paikkatietoaineiston ja listaa kävelyetäisyydellä olevat työpaikat. |
+  
 ### 📄 PDF–Excel–automaattimuunnin
 *Python + tabula + pandas*
 > Työkalu, joka poimii rakenteellista dataa laskuista tai tuotetiedostoista ja siirtää sen Exceliin.
