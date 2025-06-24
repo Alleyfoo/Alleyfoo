@@ -12,8 +12,8 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 
 | Projekti | Kuvaus |
 |----------|--------|
-| Lidl receipt analysis tool<br><a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">
-| Warehouse stock estimator (mock-up)<br><a href="Toolbox/notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">
+| Lidl receipt analysis tool<br><a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">|Analysoi LIDLin kuiteista käyttödataa|
+| Warehouse stock estimator (mock-up)<br><a href="Toolbox/notebooks/Warehouse_stock_estimator.ipynb">📓 Notebook</a>  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">|Laskee ennakoivasti varastodataa käyttäen Prophet kirjastoa|
 | Walkable workplaces (public data)<br><a href="notebooks/Walkable_workplaces.ipynb">📓 Notebook</a> <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Walkable_workplaces.ipynb">| Hakee avoimen paikkatietoaineiston ja listaa kävelyetäisyydellä olevat työpaikat. |
   
 ### 📄 PDF–Excel–automaattimuunnin
