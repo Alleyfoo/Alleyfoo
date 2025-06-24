@@ -12,7 +12,6 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 
 | Projekti | Kuvaus |
 |----------|--------|
-| Lidl receipt analysis tool | Kuitti-OCR → kuukausikooste, kilo-/unit-analyysit.<br> \
   <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a> &nbsp; \
   <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Lidl_receipt_financial_tracker.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
@@ -22,7 +21,6 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
   <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/notebooks/Warehouse_stock_estimator.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
   </a> |
-
 
 ### 📄 PDF–Excel–automaattimuunnin
 *Python + tabula + pandas*
