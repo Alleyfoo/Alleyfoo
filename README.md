@@ -9,9 +9,14 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 - SQL-perusteet ja tiedon visualisointi
 
 ## 🧩 Näyteprojekteja
-*Lidl receipt analysis tool*
-Lidl kuitti laskuri joka muuntaa lidlin apistä saatavan kuitin datan kuukausittaiseksi tiedoksi ja laskee analyysin tuotteiden perusteella sekä vertailun.
 
+| Projekti | Kuvaus |
+| -------- | ------ |
+| Lidl receipt analysis tool | Kuitti-OCR → kuukausikooste → analyysit tuotteittain.<br> \
+  <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">📓 Notebook</a> &nbsp; \
+  <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+  </a> |
 ### 📦 Ennustava varastonhallinta
 *Python + Prophet | Simulointi*
 > Malli kysynnän ennustamiseen ja varastorajojen laskemiseen – tukee päätöksentekoa tilauksissa.
