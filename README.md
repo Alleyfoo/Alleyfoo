@@ -22,7 +22,3 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
 ### 🛒 Webshop Macro Tool
 *Python + pyautogui + selenium*
 > Työkalu, joka täyttää verkkokaupan tuotelomakkeet automaattisesti Excel-tiedoston perusteella.
-
-## 🧩 Näyteprojekteja
-
-
