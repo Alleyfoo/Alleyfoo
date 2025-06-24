@@ -16,7 +16,8 @@ Data-analytiikan, tuotedatan ja automaation rakentaja
   <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb"><br><br> Notebook</a> &nbsp; \
   <a href="https://colab.research.google.com/github/Alleyfoo/Alleyfoo/blob/main/Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
-  </a> 
+  </a> <br><br>
+  
 ### Ennustava varastonhallinta
 *Python + Prophet | Simulointi*
 > Malli kysynnän ennustamiseen ja varastorajojen laskemiseen – tukee päätöksentekoa tilauksissa.
