@@ -1,7 +1,7 @@
-# Hi, I’m Perttu – Data & Automation Enthusiast
+# Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
-🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen@hotmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
 
 ## Featured Projects
 | Project | 📓 Notebook | What it shows |
@@ -14,7 +14,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 
 
 # Hei, olen Perttu Leinonen
-Data-analytiikan, tuotedatan ja automaation rakentaja
+Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
 
 ## Osaamisalueet
 - Excel-automaatio, Python-analytiikka
