@@ -12,35 +12,6 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Product description keyword extractor | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">View</a> · [Docs](docs/product_keyword_extractor.md) | Extracts technical keywords from messy product descriptions for MDM preprocessing · module `productkeywords` |
 | General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
 
-### PDF‑to‑Excel table extractor example
-
-```python
-from pdf2excel import parse_ocr_text_to_df
-
-sample = "TP123 Sample part | 100 kg 80 kg"
-df = parse_ocr_text_to_df(sample)
-```
-
-### Product description keyword extractor example
-
-```python
-from productkeywords import extract_keywords_df
-import pandas as pd
-
-categories = {"m": ["M6"], "Din": ["931"]}
-
-df = pd.DataFrame(
-    {
-        "ItemID": [1],
-        "ItemDescrEng1": ["M6 Bolt"],
-        "ItemDescrEng2": ["DIN931 10.9"],
-    }
-)
-
-extract_keywords_df(df, categories)
-```
-
-
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
