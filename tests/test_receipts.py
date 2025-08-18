@@ -22,8 +22,8 @@ def test_process_folder(tmp_path: Path):
     receipt.write_text(sample, encoding="utf-8")
 
     data = process_receipts_folder(tmp_path, tmp_path / "out.csv")
-    assert any(row["item"] == "Milk" for row in data)
-    milk = next(row for row in data if row["item"] == "Milk")
+    assert (data["item"] == "Milk").any()
+    milk = data[data["item"] == "Milk"].iloc[0]
     assert milk["category"] == "Dairy"
     assert (tmp_path / "out.csv").exists()
 
