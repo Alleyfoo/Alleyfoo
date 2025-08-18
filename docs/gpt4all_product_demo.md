@@ -1,13 +1,31 @@
 # GPT4All Product Demo
 
+Python utilities for spotting changes in product descriptions with a local GPT4All model.
+
 ## Setup
-- Install dependencies in the notebook:
+- Install dependencies:
   ```bash
-  pip install gpt4all pydantic pandas numpy openpyxl rapidfuzz pdfplumber pillow pytesseract pdf2image requests
-  apt-get install poppler-utils tesseract-ocr
+  pip install -r requirements.txt
   ```
-- The demo works without API keys or HF tokens. The notebook automatically downloads the small GPT4All model `orca-mini-3b-gguf2-q4_0.gguf` on first run.
+- The demo works without API keys or HF tokens. The default GPT4All model `orca-mini-3b-gguf2-q4_0.gguf` downloads on first use.
 - Default configuration also fetches the IKEA BESTÅ PDF for testing.
+
+## Main Functions
+- `extract_text_from_pdf(path, page_index=0) -> str`: read text from a PDF page with an OCR fallback.
+- `parse_product_lines(text: str) -> list[ProductLine]`: pick likely product lines and synthesize SKUs.
+- `diff_product_lines(orig: ProductLine, curr: ProductLine, model=None) -> DiffReport`: compare two lines using GPT4All.
+
+## Example
+```python
+from gpt4all import GPT4All
+from gpt4allproduct import ProductLine, diff_product_lines
+
+model = GPT4All("orca-mini-3b-gguf2-q4_0.gguf")
+orig = ProductLine("123.456.78-01", "Shelf 30×20 cm")
+curr = ProductLine("123.456.78-01", "Shelf 35×20 cm")
+report = diff_product_lines(orig, curr, model)
+print(report.differences)
+```
 
 ## Execution
 1. Adjust configuration variables such as `USE_DEFAULT_PDF`, `PAGE_INDEX`, and `GPT4ALL_MODEL`.

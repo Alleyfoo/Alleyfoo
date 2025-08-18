@@ -10,7 +10,19 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Warehouse stock estimator | <a href="Toolbox/notebooks/prophet.ipynb">View</a> · [Docs](docs/warehouse_stock_estimator.md) | Forecasts warehouse stock levels with the Prophet library · module `stockforecast` |
 | PDF‑to‑Excel table extractor | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">View</a> · [Docs](docs/pdf_to_excel_converter.md) | Converts PDF catalogue tables to Excel using OCR · module `pdf2excel` |
 | Product description keyword extractor | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">View</a> | Extracts technical keywords from messy product descriptions for MDM preprocessing |
-| General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
+| General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields · module `gpt4allproduct`|
+
+# Example
+```python
+from gpt4all import GPT4All
+from gpt4allproduct import ProductLine, diff_product_lines
+
+model = GPT4All("orca-mini-3b-gguf2-q4_0.gguf")
+orig = ProductLine("123.456.78-01", "Shelf 30×20 cm")
+curr = ProductLine("123.456.78-01", "Shelf 35×20 cm")
+report = diff_product_lines(orig, curr, model)
+print(report.differences)
+```
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
@@ -30,5 +42,5 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Varastosaldon ennustaja | <a href="Toolbox/notebooks/prophet.ipynb">Näytä</a> · [Docs](docs/warehouse_stock_estimator.md) | Ennustaa varastotarpeet Prophet‑kirjastolla · moduuli `stockforecast` |
 | PDF → Excel muunnin | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">Näytä</a> · [Docs](docs/pdf_to_excel_converter.md) | Muuntaa PDF‑taulukot Excel‑muotoon OCR:lla · moduuli `pdf2excel` |
 | Tuotekuvausten harmonisointi | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">Näytä</a> | Poimii tekniset avainsanat sekavasta tuotedatasta |
-| Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät|
+| Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät · moduuli `gpt4allproduct`|
 
