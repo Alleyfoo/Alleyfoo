@@ -1,5 +1,7 @@
 # Warehouse Stock Estimator
 
+Core functionality from the notebook is available as module `stockforecast`.
+
 ## Installation
 Create a Python environment and install the required libraries:
 
