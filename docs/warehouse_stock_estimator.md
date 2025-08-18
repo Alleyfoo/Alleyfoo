@@ -1,28 +1,27 @@
 # Warehouse Stock Estimator
 
+Utilities for simulating demand and forecasting when to reorder stock using [Prophet](https://facebook.github.io/prophet/).
+=======
 Core functionality from the notebook is available as module `stockforecast`.
 
+
 ## Installation
-Create a Python environment and install the required libraries:
 
 ```bash
-pip install pandas numpy prophet plotly openpyxl kaleido
+pip install -r requirements.txt
 ```
 
-## Data Preparation
-1. Mount Google Drive (if using Colab) or set a local data directory.
-2. Generate or load historical daily demand for each item. Data should contain:
-   - `item_id`: unique identifier
-   - `ds`: date column
-   - `daily_sales`: units sold per day
-3. Use the helper function to simulate stock levels from demand and export the results to Excel for verification.
+## Quick start
 
-## Running Forecasts
-1. Train a Prophet model on the historical `daily_sales` data.
-2. Create a future dataframe and forecast the next 180 days of demand.
-3. Accumulate predicted sales to project remaining inventory for each item.
-4. Save a dashboard (`forecast_dashboard.xlsx`) and individual item plots to the data directory.
+```python
+from warehousestock.estimator import generate_daily_demand, forecast_reorder_date
 
-## Interpreting Plots
-The notebook plots projected inventory levels with a horizontal reorder threshold.  
-When the inventory line crosses this threshold, schedule replenishment before the indicated date.
+demand = generate_daily_demand("2024-01-01", "2024-01-30", base_sales_mean=20, item_id="ITEM_1")
+reorder_date = forecast_reorder_date(demand, current_stock=500, reorder_threshold=100)
+print(reorder_date)
+```
+
+## Functions
+- `generate_daily_demand` – create a demand DataFrame with seasonality and noise.
+- `simulate_stock_from_demand` – simulate stock levels and replenishments.
+- `forecast_reorder_date` – predict when inventory will fall below a threshold.
