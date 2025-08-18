@@ -12,6 +12,22 @@ This notebook converts scanned Lidl grocery receipts into structured spend summa
 - `extract_receipt_data(path: str) -> list[dict]`: runs Tesseract OCR on a receipt image, merges continuation lines, captures quantities or weights, and returns item dictionaries.
 - `process_receipts_folder(folder: str, csv_out: str) -> pd.DataFrame`: processes all receipt images in a folder, applies `extract_receipt_data`, saves results to CSV, and tags each item with a category.
 
+## Library Usage
+The functionality is also available as a Python module. After installing the package, you can parse
+receipt images directly from your code:
+
+```python
+from lidltracker import process_receipts_folder
+
+df = process_receipts_folder("receipts", "out.csv")
+```
+
+Command line usage is supported via the module's CLI entry point:
+
+```bash
+python -m lidltracker.receipts receipts_folder results.csv
+```
+
 ## Example Output
 Running the notebook on sample receipts generates a monthly spend table and category breakdown:
 
