@@ -4,6 +4,8 @@ numpy>=1.26
 matplotlib>=3.8
 python-dateutil>=2.9
 click>=8.1
+gpt4all>=2.7.0
+
 
 # Dev / tests / formatting
 pytest>=8.2
