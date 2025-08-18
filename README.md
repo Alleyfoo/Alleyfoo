@@ -23,6 +23,7 @@ print(out.loc[0, 'Keywords'])
 ```
 
 
+
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
 
