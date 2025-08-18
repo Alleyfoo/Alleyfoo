@@ -1,6 +1,9 @@
 # Warehouse Stock Estimator
 
 Utilities for simulating demand and forecasting when to reorder stock using [Prophet](https://facebook.github.io/prophet/).
+=======
+Core functionality from the notebook is available as module `stockforecast`.
+
 
 ## Installation
 
