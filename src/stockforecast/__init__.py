@@ -1,6 +1,7 @@
 """Utilities for forecasting warehouse stock levels."""
 
 from .forecast import (
+    ForecastResult,
     generate_daily_demand,
     simulate_stock_from_demand,
     forecast_inventory,
@@ -8,6 +9,7 @@ from .forecast import (
 )
 
 __all__ = [
+    "ForecastResult",
     "generate_daily_demand",
     "simulate_stock_from_demand",
     "forecast_inventory",
