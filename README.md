@@ -10,7 +10,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Warehouse stock estimator | <a href="Toolbox/notebooks/prophet.ipynb">View</a> | Forecasts warehouse stock levels with the Prophet library |
 | PDF‑to‑Excel table extractor | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">View</a> | Converts PDF catalogue tables to Excel using OCR |
 | Product description keyword extractor | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">View</a> | Extracts technical keywords from messy product descriptions for MDM preprocessing |
-| General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
+| General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
 
 
 
@@ -33,5 +33,5 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Varastosaldon ennustaja | <a href="Toolbox/notebooks/prophet.ipynb">Näytä</a> | Ennustaa varastotarpeet Prophet‑kirjastolla |
 | PDF → Excel muunnin | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">Näytä</a> | Muuntaa PDF‑taulukot Excel‑muotoon OCR:lla |
 | Tuotekuvausten harmonisointi | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">Näytä</a> | Poimii tekniset avainsanat sekavasta tuotedatasta |
-| Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät|
+| Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät|
 
