@@ -33,6 +33,6 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | PDF → Excel muunnin | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">Näytä</a> · [Docs](docs/pdf_to_excel_converter.md) | Muuntaa PDF‑taulukot Excel‑muotoon OCR:lla · moduuli `pdf2excel` |
 | Tuotekuvausten harmonisointi | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">Näytä</a> . [Docs](docs/product_keyword_extractor.md) | Poimii tekniset avainsanat sekavasta tuotedatasta |
 | Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät · moduuli `gpt4allproduct`|
-| Tuotedatan puhdistusdemo käyttämällä kielimalleja ja tyyliopasta | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">View</a> · [Docs](docs/design_document.md) | Tuotedatan puhdistusta käyttämällä kielimalleja |
+| Tuotedatan puhdistusdemo käyttämällä kielimalleja ja tyyliopasta | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">Näytä</a> · [Docs](docs/design_document.md) | Tuotedatan puhdistusta käyttämällä kielimalleja |
 
 
