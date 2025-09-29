@@ -13,6 +13,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
 | Product data cleaning with sml or llm | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">View</a> · [Docs](docs/design_document.md) | Product data cleaning demo using style guides and sml or llm |
 | Customer service email cleaning with llm | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | 2 language support, email automation, sml or llm |
+| Customer chat bot tool using llm | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Working demo / part of CS email cleaner |
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
@@ -35,4 +36,5 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät · moduuli `gpt4allproduct`|
 | Tuotedatan puhdistusdemo käyttämällä kielimalleja ja tyyliopasta | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">Näytä</a> · [Docs](docs/design_document.md) | Tuotedatan puhdistusta käyttämällä kielimalleja |
 | Asiakaspalvelun sähköpostin siivous kielimallilla | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](docs/design_document-cs-llm.md) | Toimii kahdella kielellä, automatisointi |
+| Asiakaspalvelun chat botti olamalla | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Demo näyttää ajon / Osa asiakaspalvelun sähköposti siivoustyökalua |
 
