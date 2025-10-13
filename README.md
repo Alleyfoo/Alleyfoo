@@ -14,6 +14,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Product data cleaning with sml or llm | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">View</a> · [Docs](docs/design_document.md) | Product data cleaning demo using style guides and sml or llm |
 | Customer service email cleaning with llm | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | 2 language support, email automation, sml or llm |
 | Customer chat bot tool using llm | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Working demo / part of CS email cleaner |
+| Showcasing data pipe usage with different techniques | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | Showcasing document |
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
@@ -37,4 +38,5 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Tuotedatan puhdistusdemo käyttämällä kielimalleja ja tyyliopasta | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">Näytä</a> · [Docs](docs/design_document.md) | Tuotedatan puhdistusta käyttämällä kielimalleja |
 | Asiakaspalvelun sähköpostin siivous kielimallilla | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](docs/design_document-cs-llm.md) | Toimii kahdella kielellä, automatisointi |
 | Asiakaspalvelun chat botti olamalla | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Demo näyttää ajon / Osa asiakaspalvelun sähköposti siivoustyökalua |
+| Esittely data pipen käytöstä eri tekniikoilla | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | Esittely dokumentti |
 
