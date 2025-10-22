@@ -15,6 +15,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Customer service email cleaning with llm | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | 2 language support, email automation, sml or llm |
 | Customer chat bot tool using llm | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Working demo / part of CS email cleaner |
 | Showcasing data pipe usage with different techniques | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, or S3; standardize headers; and publish a warehouse view ready for Snowflake MERGE |
+| Showcasing data cleaning using llm and apis for music genres | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure flow, data cleanup and dashboards |
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
@@ -39,4 +40,5 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Asiakaspalvelun sähköpostin siivous kielimallilla | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](docs/design_document-cs-llm.md) | Toimii kahdella kielellä, automatisointi |
 | Asiakaspalvelun chat botti olamalla | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Demo näyttää ajon / Osa asiakaspalvelun sähköposti siivoustyökalua |
 | Esittely data pipen käytöstä eri tekniikoilla | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, tai S3; otsikoiden standardisointi ja julkaisu data varastoon valmis Snowflake yhdistäminen|
+| Esitys datan siivoamisesta apin ja llm:n avulla  | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure -> excel -> dashboard |
 
