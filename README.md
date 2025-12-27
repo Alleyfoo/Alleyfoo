@@ -1,5 +1,8 @@
 # Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
 
+### Data Tool Demo
+[Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.
+
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
 🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
 
@@ -17,8 +20,15 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Showcasing data pipe usage with different techniques | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, or S3; standardize headers; and publish a warehouse view ready for Snowflake MERGE |
 | Showcasing data cleaning using llm and apis for music genres | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure flow, data cleanup and dashboards |
 
+
+
+
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
+
+### Data työkalu demo
+[Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — standardisoi sotkuiset Exclit / csv tiedostot siisteiksi scheemoiksi käyttämällä CLI + Streamlit + Tk GUI. Pika-aloitus: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, katso `data/output/`.
+
 
 ## Osaamisalueet
 - Excel-automaatio, Python-analytiikka
@@ -41,4 +51,7 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Asiakaspalvelun chat botti olamalla | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Demo näyttää ajon / Osa asiakaspalvelun sähköposti siivoustyökalua |
 | Esittely data pipen käytöstä eri tekniikoilla | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, tai S3; otsikoiden standardisointi ja julkaisu data varastoon valmis Snowflake yhdistäminen|
 | Esitys datan siivoamisesta apin ja llm:n avulla  | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure -> excel -> dashboard |
+
+
+
 
