@@ -1,8 +1,13 @@
 # Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
 
 ### Data Tool Demo
-[Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.<br>
+[Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.
+### Data agent demo
 [Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo) — Agentic Excel/CSV cleaning demo (CLI + Streamlit + TUI).
+
+### CS Chatbot LLM Demo
+[Alleyfoo/Cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo) — Chat-first queue backed by SQLite (safe for multi-workers), FastAPI ingest with API key auth, and Docker Compose (app + worker + Ollama). Quickstart: clone, set `INGEST_API_KEY`, `docker compose up --build` (or `uvicorn app.server:app --reload`), enqueue via `/chat/enqueue`, and watch workers drain the queue.
+
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
 🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
@@ -16,7 +21,6 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 | Product description keyword extractor | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">View</a> · [Docs](docs/product_keyword_extractor.md) | Extracts technical keywords from messy product descriptions for MDM preprocessing · module `keywordextractor` |
 | General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
 | Product data cleaning with sml or llm | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">View</a> · [Docs](docs/design_document.md) | Product data cleaning demo using style guides and sml or llm |
-| Customer service email cleaning with llm | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | 2 language support, email automation, sml or llm |
 | Customer chat bot tool using llm | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Working demo / part of CS email cleaner |
 | Showcasing data pipe usage with different techniques | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, or S3; standardize headers; and publish a warehouse view ready for Snowflake MERGE |
 | Showcasing data cleaning using llm and apis for music genres | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure flow, data cleanup and dashboards |
@@ -30,6 +34,12 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 ### Data työkalu demo
 [Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — standardisoi sotkuiset Exclit / csv tiedostot siisteiksi scheemoiksi käyttämällä CLI + Streamlit + Tk GUI. Pika-aloitus: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, katso `data/output/`.
 
+### Data agentti demo
+[Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo) — Agentti joka siivoaa Excel/CSV tiedostoja (CLI + Streamlit + TUI).
+
+### CS Chatbot LLM Demo
+[Alleyfoo/Cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo) — Chat-first -jonotus SQLite-taustalla (turvallinen useille workereille), FastAPI-ingest API-avainautentikoinnilla, sekä Docker Compose (app + worker + Ollama).
+Quickstart: kloonaa repo, aseta INGEST_API_KEY, aja docker compose up --build (tai uvicorn app.server:app --reload), jonota pyyntö /chat/enqueue-endpointin kautta ja seuraa, kun workerit purkavat jonon.
 
 ## Osaamisalueet
 - Excel-automaatio, Python-analytiikka
@@ -40,7 +50,7 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 
 
 ## Näyteprojekteja
-| Projekti | 📓 Notebook | Kuvaus |
+| Projekti | Notebook | Kuvaus |
 |----------|-------------|--------|
 | Lidlin kuittidatan analysointityökalu | <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">Näytä</a> · [Docs](docs/lidl_receipt_analysis.md) | Analysoi kuittidataa ja tuottaa kuukausikoosteet · moduuli `lidltracker` |
 | Varastosaldon ennustaja | <a href="Toolbox/notebooks/prophet.ipynb">Näytä</a> · [Docs](docs/warehouse_stock_estimator.md) | Ennustaa varastotarpeet Prophet‑kirjastolla · moduuli `stockforecast` |
@@ -48,7 +58,6 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 | Tuotekuvausten harmonisointi | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">Näytä</a> . [Docs](docs/product_keyword_extractor.md) | Poimii tekniset avainsanat sekavasta tuotedatasta |
 | Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät · moduuli `gpt4allproduct`|
 | Tuotedatan puhdistusdemo käyttämällä kielimalleja ja tyyliopasta | <a href="Toolbox/notebooks/colab_walkthrough_viz.ipynb">Näytä</a> · [Docs](docs/design_document.md) | Tuotedatan puhdistusta käyttämällä kielimalleja |
-| Asiakaspalvelun sähköpostin siivous kielimallilla | <a href="Toolbox/notebooks/colab_batch_demo.ipynb">View</a> · [Docs](docs/design_document-cs-llm.md) | Toimii kahdella kielellä, automatisointi |
 | Asiakaspalvelun chat botti olamalla | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Demo näyttää ajon / Osa asiakaspalvelun sähköposti siivoustyökalua |
 | Esittely data pipen käytöstä eri tekniikoilla | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, tai S3; otsikoiden standardisointi ja julkaisu data varastoon valmis Snowflake yhdistäminen|
 | Esitys datan siivoamisesta apin ja llm:n avulla  | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure -> excel -> dashboard |
