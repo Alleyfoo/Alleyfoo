@@ -5,8 +5,8 @@
 ### Data agent demo
 [Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo) — Agentic Excel/CSV cleaning demo (CLI + Streamlit + TUI).
 
-### CS Chatbot LLM Demo
-[Alleyfoo/Cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo) — Chat-first queue backed by SQLite (safe for multi-workers), FastAPI ingest with API key auth, and Docker Compose (app + worker + Ollama). Quickstart: clone, set `INGEST_API_KEY`, `docker compose up --build` (or `uvicorn app.server:app --reload`), enqueue via `/chat/enqueue`, and watch workers drain the queue.
+### Data cleaning demo
+[Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo) — Local product text cleaner with guardrails (terms/numerics), SQLite-backed review queue, FastAPI + Streamlit, Docker Compose, and batch CLI.
 
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
@@ -37,9 +37,8 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 ### Data agentti demo
 [Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo) — Agentti joka siivoaa Excel/CSV tiedostoja (CLI + Streamlit + TUI).
 
-### CS Chatbot LLM Demo
-[Alleyfoo/Cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo) — Chat-first -jonotus SQLite-taustalla (turvallinen useille workereille), FastAPI-ingest API-avainautentikoinnilla, sekä Docker Compose (app + worker + Ollama).
-Quickstart: kloonaa repo, aseta INGEST_API_KEY, aja docker compose up --build (tai uvicorn app.server:app --reload), jonota pyyntö /chat/enqueue-endpointin kautta ja seuraa, kun workerit purkavat jonon.
+### Datan siivous demo
+[Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo — Paikallinen tuotekuvausten puhdistin suojauksilla (TERM/numerot), SQLite-pohjainen review-jono, FastAPI + Streamlit, Docker Compose ja batch-CLI.
 
 ## Osaamisalueet
 - Excel-automaatio, Python-analytiikka
