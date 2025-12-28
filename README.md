@@ -2,6 +2,7 @@
 
 ### Data Tool Demo
 [Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.
+[Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo) — Agentic Excel/CSV cleaning demo (CLI + Streamlit + TUI).
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
 🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
