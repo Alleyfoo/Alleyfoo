@@ -10,7 +10,7 @@
 [Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo) — Local product text cleaner with guardrails (terms/numerics), SQLite-backed review queue, FastAPI + Streamlit, Docker Compose, and batch CLI.
 
 ### CS cleaning demo
-[Alleyfoo/cs-cahtbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo)) — Local-first chatbot playground now running on an SQLite-backed queue 
+[Alleyfoo/cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo)) — Local-first chatbot playground now running on an SQLite-backed queue 
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
 🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
