@@ -2,12 +2,15 @@
 
 ### Data Tool Demo
 [Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.
+
 ### Data agent demo
 [Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo) — Agentic Excel/CSV cleaning demo (CLI + Streamlit + TUI).
 
 ### Data cleaning demo
 [Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo) — Local product text cleaner with guardrails (terms/numerics), SQLite-backed review queue, FastAPI + Streamlit, Docker Compose, and batch CLI.
 
+### CS cleaning demo
+[Alleyfoo/cs-cahtbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo)) — Local-first chatbot playground now running on an SQLite-backed queue 
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
 🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
@@ -38,6 +41,10 @@ Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data�
 
 ### Datan siivous demo
 [Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo — Paikallinen tuotekuvausten puhdistin suojauksilla (TERM/numerot), SQLite-pohjainen review-jono, FastAPI + Streamlit, Docker Compose ja batch-CLI.
+
+### Asiakaspalvelun sähköpostin siivous 
+[Alleyfoo/cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo)) — Paikallinen asiakaspalvelun sähköpostin siivoaja
+
 
 ## Osaamisalueet
 - Excel-automaatio, Python-analytiikka
