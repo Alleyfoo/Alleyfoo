@@ -36,7 +36,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
 
-### CS cleaning demo
+### Lajittelu työkalu joka valmistelee sähköpostin 
 [Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm))) — Paikallinen agentti joka lukee tiedot sähköpostista ja esivalmistelee tiedot käsittelyä varten. Oppiva malli. Toimii paikallisesti  (Ollamalla ja upotettuna, SQLite/IMAP tiedon siirtoa varten).
 
 ### Data työkalu demo
