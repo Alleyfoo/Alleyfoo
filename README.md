@@ -1,5 +1,8 @@
 # Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
 
+### CS cleaning demo
+[Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm))) — A local-first, headless triage and drafting bot with closed-loop learning. Runs entirely on your machine (Ollama for LLM + embeddings, SQLite/IMAP for queue and feedback).
+
 ### Data Tool Demo
 [Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.
 
@@ -13,10 +16,10 @@
 [Alleyfoo/cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo)) — Local-first chatbot playground now running on an SQLite-backed queue 
 
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
-🔗 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
+[LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
 
 ## Featured Projects
-| Project | 📓 Notebook | What it shows |
+| Project | Notebook | What it shows |
 |---------|-------------|---------------|
 | Lidl receipt analysis tool | <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">View</a> · [Docs](docs/lidl_receipt_analysis.md) | Parses Lidl receipts and summarizes monthly spend · module `lidltracker` |
 | Warehouse stock estimator | <a href="Toolbox/notebooks/prophet.ipynb">View</a> · [Docs](docs/warehouse_stock_estimator.md) | Forecasts warehouse stock levels with the Prophet library · module `stockforecast` |
@@ -32,6 +35,9 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
+
+### CS cleaning demo
+[Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm))) — Paikallinen agentti joka lukee tiedot sähköpostista ja esivalmistelee tiedot käsittelyä varten. Oppiva malli. Toimii paikallisesti  (Ollamalla ja upotettuna, SQLite/IMAP tiedon siirtoa varten).
 
 ### Data työkalu demo
 [Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo) — standardisoi sotkuiset Exclit / csv tiedostot siisteiksi scheemoiksi käyttämällä CLI + Streamlit + Tk GUI. Pika-aloitus: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, katso `data/output/`.
