@@ -1,6 +1,6 @@
 # Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
 
-### CS cleaning demo
+### Triage support tool
 [Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm) — A local-first, headless triage and drafting bot with closed-loop learning. Runs entirely on your machine (Ollama for LLM + embeddings, SQLite/IMAP for queue and feedback).
 
 ### Data Tool Demo
