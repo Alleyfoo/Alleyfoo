@@ -1,5 +1,8 @@
 # Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
 
+### Data agent demo running on Google cloud
+[Alleyfoo/Agents-data-from-Google-Cloud](https://github.com/Alleyfoo/Agents-data-from-Google-Cloud) — Agentic Excel/CSV cleaning demo using Google Cloud.
+
 ### Triage support tool
 [Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm) — A local-first, headless triage and drafting bot with closed-loop learning. Runs entirely on your machine (Ollama for LLM + embeddings, SQLite/IMAP for queue and feedback).
 
@@ -35,6 +38,10 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 
 # Hei, olen Perttu Leinonen
 Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
+
+### Data agentti demo joka toimii Google cloudissa
+[Alleyfoo/Agents-data-from-Google-Cloud](https://github.com/Alleyfoo/Agents-data-from-Google-Cloud) — Agentic joka siivoaa headereita ja toimii Google cloudissa. Excel/CSV tiedostoja (CLI + Streamlit + TUI).
+
 
 ### Lajittelu työkalu joka valmistelee sähköpostin 
 [Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm))) — Paikallinen agentti joka lukee tiedot sähköpostista ja esivalmistelee tiedot käsittelyä varten. Oppiva malli. Toimii paikallisesti  (Ollamalla ja upotettuna, SQLite/IMAP tiedon siirtoa varten).
