@@ -1,4 +1,7 @@
-# Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data visualization
+# Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data builder
+
+### Ops/Observability automation: endpoint-snapshot → incident-detect → priorising → raporting. 
+[Alleyfoo/Pre-emptive-IT-Incident-Dashboard](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard) — Artifact-first incident pipeline: ingest endpoint snapshots, detect incidents with deterministic rules.
 
 ### Data agent demo running on Google cloud
 [Alleyfoo/Agents-data-from-Google-Cloud](https://github.com/Alleyfoo/Agents-data-from-Google-Cloud) — Agentic Excel/CSV cleaning demo using Google Cloud.
@@ -37,7 +40,10 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 
 
 # Hei, olen Perttu Leinonen
-Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data‑visualisointi
+Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data rakentaja
+
+### Ops-/observability-automaatio: endpoint-tilannekuva → häiriön tunnistus → priorisointi → raportointi
+[Alleyfoo/Pre-emptive-IT-Incident-Dashboard](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard) — Artefaktikeskeinen häiriöputki: ingestoi endpoint-tilannekuvia ja tunnistaa häiriöt deterministisillä säännöillä.
 
 ### Data agentti demo joka toimii Google cloudissa
 [Alleyfoo/Agents-data-from-Google-Cloud](https://github.com/Alleyfoo/Agents-data-from-Google-Cloud) — Agentic joka siivoaa headereita ja toimii Google cloudissa. Excel/CSV tiedostoja (CLI + Streamlit + TUI).
