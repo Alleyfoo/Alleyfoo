@@ -1,4 +1,4 @@
-# Hi, I’m Perttu – Data Analyst and automation builder | Python, ERP-integration and data builder
+# Hi, I’m Perttu – Product specialist | Python, ERP-integration and data builder
 
 ### Ops/Observability automation: endpoint-snapshot → incident-detect → priorising → raporting. 
 [Alleyfoo/Pre-emptive-IT-Incident-Dashboard](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard) — Data-first incident pipeline: ingest endpoint snapshots, detect incidents with deterministic rules.
@@ -40,7 +40,7 @@ Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or 
 
 
 # Hei, olen Perttu Leinonen
-Data‑analyytikko ja automaation rakentaja | Python, ERP‑integraatiot & data rakentaja
+Tuote asiantuntija ja automaation rakentaja | Python, ERP‑integraatiot & datan rakennus
 
 ### Ops-/observability-automaatio: endpoint-tilannekuva → häiriön tunnistus → priorisointi → raportointi
 [Alleyfoo/Pre-emptive-IT-Incident-Dashboard](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard) — Datalähtöinen häiriöputki: ingestoi endpoint-tilannekuvia ja tunnistaa häiriöt deterministisillä säännöillä.
