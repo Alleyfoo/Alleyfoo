@@ -25,20 +25,6 @@ I'm a Product specialist | Python, ERP-integration and data builder
 Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
 [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
 
-## Featured Projects
-| Project | Notebook | What it shows |
-|---------|-------------|---------------|
-| Lidl receipt analysis tool | <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">View</a> · [Docs](docs/lidl_receipt_analysis.md) | Parses Lidl receipts and summarizes monthly spend · module `lidltracker` |
-| Warehouse stock estimator | <a href="Toolbox/notebooks/prophet.ipynb">View</a> · [Docs](docs/warehouse_stock_estimator.md) | Forecasts warehouse stock levels with the Prophet library · module `stockforecast` |
-| PDF‑to‑Excel table extractor | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">View</a> · [Docs](docs/pdf_to_excel_converter.md) | Converts PDF catalogue tables to Excel using OCR · module `pdf2excel` |
-| Product description keyword extractor | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">View</a> · [Docs](docs/product_keyword_extractor.md) | Extracts technical keywords from messy product descriptions for MDM preprocessing · module `keywordextractor` |
-| General GPT4ALL demo with product data | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">View</a> · [Docs](docs/gpt4all_product_demo.md) | PDF page → product lines; GPT 4ALL detects changes & normalizes fields|
-| Customer chat bot tool using llm | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Working demo / part of CS email cleaner |
-| Showcasing data pipe usage with different techniques | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, or S3; standardize headers; and publish a warehouse view ready for Snowflake MERGE |
-| Showcasing data cleaning using llm and apis for music genres | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure flow, data cleanup and dashboards |
-
-
-
 
 # Hei, olen Perttu Leinonen
 Tuote asiantuntija ja automaation rakentaja | Python, ERP‑integraatiot & datan rakennus
@@ -72,20 +58,3 @@ Tuote asiantuntija ja automaation rakentaja | Python, ERP‑integraatiot & datan
 - PDF-Excel-muuntimet ja raportointi
 - Simuloidut kysyntäennusteet (Prophet)
 - SQL-perusteet ja tiedon visualisointi
-
-
-## Näyteprojekteja
-| Projekti | Notebook | Kuvaus |
-|----------|-------------|--------|
-| Lidlin kuittidatan analysointityökalu | <a href="Toolbox/notebooks/Lidl_receipt_financial_tracker.ipynb">Näytä</a> · [Docs](docs/lidl_receipt_analysis.md) | Analysoi kuittidataa ja tuottaa kuukausikoosteet · moduuli `lidltracker` |
-| Varastosaldon ennustaja | <a href="Toolbox/notebooks/prophet.ipynb">Näytä</a> · [Docs](docs/warehouse_stock_estimator.md) | Ennustaa varastotarpeet Prophet‑kirjastolla · moduuli `stockforecast` |
-| PDF → Excel muunnin | <a href="Toolbox/notebooks/pdf_to_excel_converter.ipynb">Näytä</a> · [Docs](docs/pdf_to_excel_converter.md) | Muuntaa PDF‑taulukot Excel‑muotoon OCR:lla · moduuli `pdf2excel` |
-| Tuotekuvausten harmonisointi | <a href="Toolbox/notebooks/Product_Description_Keyword_Extraction_Demo.ipynb">Näytä</a> . [Docs](docs/product_keyword_extractor.md) | Poimii tekniset avainsanat sekavasta tuotedatasta |
-| Yleisdemo GPT4ALL käytöstä tuotedatan hallinnassa | <a href="Toolbox/notebooks/SKU_Demo_ZERO_SETUP.ipynb">Näytä</a> · [Docs](docs/gpt4all_product_demo.md) | PDF sivu muutetaan riveiksi tuotteita; GPT4ALL havaitsee erot ja normalisoi kentät · moduuli `gpt4allproduct`|
-| Asiakaspalvelun chat botti olamalla | <a href="Toolbox/notebooks/chat_overview github demo.ipynb">View</a> · [Docs](/docs/design_document-cs-llm.md) | Demo näyttää ajon / Osa asiakaspalvelun sähköposti siivoustyökalua |
-| Esittely data pipen käytöstä eri tekniikoilla | <a href="Toolbox/notebooks/simulated_pipeline_playbook for git.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/SFTP, Azure Blob, tai S3; otsikoiden standardisointi ja julkaisu data varastoon valmis Snowflake yhdistäminen|
-| Esitys datan siivoamisesta apin ja llm:n avulla  | <a href="Toolbox/notebooks/00_project_overview.ipynb">View</a> · [Docs](/docs/readme-pipe.md) | AVS/Azure -> excel -> dashboard |
-
-
-
-
