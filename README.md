@@ -1,60 +1,125 @@
-# Hi, I’m Perttu
-I'm a Product specialist | Python, ERP-integration and data builder
+# Hi, I’m Perttu Leinonen
 
-### Ops/Observability automation: endpoint-snapshot incident-detect priorising raporting. 
-[Alleyfoo/Pre-emptive-IT-Incident-Dashboard](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard)  Data-first incident pipeline: ingest endpoint snapshots, detect incidents with deterministic rules.
+**Product data, ERP and operations automation builder**
+Python · Excel · Streamlit · ERP/PIM data · workflow checks · exception dashboards
 
-### Data agent demo running on Google cloud
-[Alleyfoo/Agents-data-from-Google-Cloud](https://github.com/Alleyfoo/Agents-data-from-Google-Cloud)  Agentic Excel/CSV cleaning demo using Google Cloud.
+Mäntsälä, Finland
+Open to remote / hybrid roles in data, product operations, ERP, logistics, support tooling or practical automation work.
 
-### Triage support tool
-[Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm)  A local-first, headless triage and drafting bot with closed-loop learning. Runs entirely on your machine (Ollama for LLM + embeddings, SQLite/IMAP for queue and feedback).
+[LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7)
 
-### Data Tool Demo
-[Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo)  Standardizes messy Excel/CSV into a clean, validated schema. CLI + Streamlit + Tk GUI. Quickstart: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, check `data/output/`.
+---
 
-### Data agent demo
-[Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo)  Agentic Excel/CSV cleaning demo (CLI + Streamlit + TUI).
+## What I build
 
-### Data cleaning demo
-[Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo)  Local product text cleaner with guardrails (terms/numerics), SQLite-backed review queue, FastAPI + Streamlit, Docker Compose, and batch CLI.
+I build small operational tools that make messy work visible.
 
-### CS cleaning demo
-[Alleyfoo/cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo))  Local-first chatbot playground now running on an SQLite-backed queue 
+Most of my demos start from the same real-world problem: plans live in one place, system truth lives somewhere else, and people only notice the gap when something breaks.
 
-Mäntsälä, Finland | Open to remote / hybrid roles in data, ERP, logistics or a project where you need somebody to explore the possibilities
-[LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7) perttu.leinonen [at] hotmail.com
+So the tools usually do some version of this:
 
+1. collect or model operational data
+2. compare plan against system truth
+3. detect exceptions
+4. explain why the issue matters
+5. produce a clear handoff for the next person, team or system
 
-# Hei, olen Perttu Leinonen
-Tuote asiantuntija ja automaation rakentaja | Python, ERP‑integraatiot & datan rakennus
+The demos use synthetic data unless stated otherwise. The point is not to pretend they are finished enterprise platforms. The point is to show the operating logic: what should be checked, what should be surfaced, and what should be fixed first.
 
-### Ops-/observability-automaatio: endpoint-tilannekuva → häiriön tunnistus → priorisointi → raportointi
-[Alleyfoo/Pre-emptive-IT-Incident-Dashboard](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard)  Datalähtöinen häiriöputki: ingestoi endpoint-tilannekuvia ja tunnistaa häiriöt deterministisillä säännöillä.
+---
 
-### Data agentti demo joka toimii Google cloudissa
-[Alleyfoo/Agents-data-from-Google-Cloud](https://github.com/Alleyfoo/Agents-data-from-Google-Cloud)  Agentic joka siivoaa headereita ja toimii Google cloudissa. Excel/CSV tiedostoja (CLI + Streamlit + TUI).
+## Current Streamlit demos
 
+| Project                                       | Live demo                                                                                   | Repository                                                              | What it shows                                                                                                                                                             |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Työpaikka-tutka**                           | [Open app](https://tyopaikka-tutka-xgwx4kraqzvzd9my4bovyr.streamlit.app/)                   | [GitHub](https://github.com/Alleyfoo/Tyopaikka-tutka)                   | Hiring-signal and employer discovery tool near Finnish railway stations. Combines company registry data, location filtering, industry grouping and commute-time thinking. |
+| **Parcel Ops Control Tower**                  | [Open app](https://parcel-ops-ftenovsnz2s4rdz2g2rjqz.streamlit.app/)                        | [GitHub](https://github.com/Alleyfoo/Parcel-Ops)                        | Parcel and customs operations dashboard using a Plan / Truth / Gap model for arrival, clearance, document, SLA and exception tracking.                                    |
+| **Pre-emptive IT Incident Dashboard**         | [Open app](https://pre-emptive-it-incident-dashboard-juhmw3cibyjbw3thpmuckj.streamlit.app/) | [GitHub](https://github.com/Alleyfoo/Pre-emptive-IT-Incident-Dashboard) | Fleet-style incident detection demo: endpoint snapshots are collected, checked with deterministic rules and shown as an evidence-based dashboard.                         |
+| **Support Desk Incident Radar**               | [Open app](https://system-monitor-widget-b35cwp4d6vxjzbsxnzyw5m.streamlit.app/)             | [GitHub](https://github.com/Alleyfoo/Support-Desk-Incident-Radar)       | Synthetic support-desk dashboard that turns service/module health into plain-language support guidance, ticket notes and escalation signals.                              |
+| **Campaign Readiness Monitor**                | [Open app](https://campaign-readiness-monitor-jlhh2xmam9fbpxccmiffgo.streamlit.app/)        | [GitHub](https://github.com/Alleyfoo/Campaign-Readiness-Monitor)        | Compares campaign plans against product, price, content, stock and channel readiness. Produces exception cards and handoff payloads.                                      |
+| **Product Operations Cockpit / Pricing Demo** | [Open app](https://pricing-demo-tqkkfbfbw8p7unffnfgjft.streamlit.app/)                      | [GitHub](https://github.com/Alleyfoo/Pricing-demo)                      | Pricing, product setup, master data quality, stock risk, governance checks and workflow handoff in one synthetic operating cockpit.                                       |
 
-### Lajittelu työkalu joka valmistelee sähköpostin 
-[Alleyfoo/Support-triage-llm](https://github.com/Alleyfoo/Support-triage-llm)))  Paikallinen agentti joka lukee tiedot sähköpostista ja esivalmistelee tiedot käsittelyä varten. Oppiva malli. Toimii paikallisesti  (Ollamalla ja upotettuna, SQLite/IMAP tiedon siirtoa varten).
+---
 
-### Data työkalu demo
-[Alleyfoo/Data-tool-demo](https://github.com/Alleyfoo/Data-tool-demo)  standardisoi sotkuiset Exclit / csv tiedostot siisteiksi scheemoiksi käyttämällä CLI + Streamlit + Tk GUI. Pika-aloitus: clone, `pip install -r requirements.txt`, `python main.py run --target-dir data/input`, katso `data/output/`.
+## Main themes
 
-### Data agentti demo
-[Alleyfoo/Data-agents-demo](https://github.com/Alleyfoo/Data-agents-demo)  Agentti joka siivoaa Excel/CSV tiedostoja (CLI + Streamlit + TUI).
+### Product data and ERP work
 
-### Datan siivous demo
-[Alleyfoo/slm-cleanroom-demo](https://github.com/Alleyfoo/slm-cleanroom-demo  Paikallinen tuotekuvausten puhdistin suojauksilla (TERM/numerot), SQLite-pohjainen review-jono, FastAPI + Streamlit, Docker Compose ja batch-CLI.
+I have worked with product data, ERP/PIM style data, campaign setup, supplier data, Excel files, product structures, pricing, categories and validation logic.
 
-### Asiakaspalvelun sähköpostin siivous 
-[Alleyfoo/cs-chatbot-llm-demo](https://github.com/Alleyfoo/Cs-chatbot-llm-demo))  Paikallinen asiakaspalvelun sähköpostin siivoaja
+Typical work:
 
+* cleaning and standardising messy Excel/CSV data
+* preparing ERP-compatible upload files
+* checking product data before publishing
+* building exception reports
+* mapping supplier data into usable structures
+* finding missing, conflicting or risky fields before they become operational problems
 
-## Osaamisalueet
-- Excel-automaatio, Python-analytiikka
-- Datan siivous ja ERP-integraatiot
-- PDF-Excel-muuntimet ja raportointi
-- Simuloidut kysyntäennusteet (Prophet)
-- SQL-perusteet ja tiedon visualisointi
+### Operational dashboards
+
+I like dashboards that are not just decorative KPI wallpaper.
+
+The useful ones answer questions like:
+
+* What is broken?
+* Who should look at it?
+* What evidence do we have?
+* What happens if nobody fixes it?
+* What can be handed to the next team without a long meeting?
+
+### Support and incident tooling
+
+I am interested in tools that sit between technical systems and the people who actually have to answer phones, write tickets, fix data or explain what is going on.
+
+That means:
+
+* status views that are safe for support desks
+* technical evidence separated from caller-facing guidance
+* synthetic checks and read-only dashboard patterns
+* copyable ticket notes
+* clear escalation logic
+* no direct production access unless the architecture actually allows it
+
+### Agent-assisted development
+
+Many of these projects were built with AI-assisted coding workflows, but with a lot of human direction, testing, repo notes and iteration.
+
+I am interested in practical agent workflows where the result is inspectable:
+
+* clear README files
+* documented assumptions
+* testable business logic
+* handoff notes
+* repeatable project structure
+* fewer mystery blobs and more boring evidence
+
+---
+
+## Tools and skills
+
+* Python
+* Streamlit
+* Pandas
+* Excel / Power Query style thinking
+* CSV / XLSX validation
+* ERP/PIM/product data workflows
+* data cleaning and transformation
+* dashboard prototyping
+* exception queues
+* synthetic data modelling
+* basic SQL
+* GitHub-based project documentation
+* AI-assisted coding and review workflows
+
+---
+
+## Older demos
+
+Some older notebook and proof-of-concept projects are still available in my repositories, but the projects above represent the current direction better: practical operational tools, product data checks, support visibility and workflow automation.
+
+---
+
+## Contact
+
+Best place to reach me: [LinkedIn](https://www.linkedin.com/in/perttu-leinonen-487325b7)
